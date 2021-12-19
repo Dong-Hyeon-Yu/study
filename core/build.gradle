@@ -8,13 +8,32 @@ group = 'hello'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
 repositories {
 	mavenCentral()
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter'
-	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter:2.6.1'
+	implementation 'javax.inject:javax.inject:1'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	//lombok 라이브러리 추가
+	compileOnly 'org.projectlombok:lombok:1.18.22'
+	annotationProcessor 'org.projectlombok:lombok'
+
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+	// lombok 라이브러리 추가
+
+	testImplementation ('org.springframework.boot:spring-boot-starter-test:2.6.1') {
+		exclude group: 'org.juit.vintage', module: 'junit-vintage-engine'
+	}
 }
 
 test {
