@@ -1,5 +1,5 @@
 # 💁‍♂️ IBAS AlphaTester
-* IBAS project
+* IBAS project (2021.05.01 ~ 2021.05.21)
 * Kaggle - [House Prices](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
 * Notion 기록 - [notion](https://fragrant-comfort-49c.notion.site/f5f92cc86a8b4a9b837d2baa8c1c98a5)
 * 발표 유튜브 영상 - [youtube](https://youtu.be/D-it3wAdhEM?t=408), [ppt 자료](https://docs.google.com/presentation/d/1VokZZ61wjAl2IK0ANCC0fJ6rX8Vov257iojncti46bw/edit?usp=sharing)
