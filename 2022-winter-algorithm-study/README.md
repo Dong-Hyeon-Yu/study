@@ -4,8 +4,8 @@
 ##### 예상 종료일: 2022-02-27
 
 ##### 그룹
-  - 1. (@Jeon, @YangTaeYoung, @DongHyeonYu)
-  - 2. (@Yejin0o0, @JIMIN, @shs1018) : 백준 단계별 문제 풀기!
+  1. (@Jeon, @YangTaeYoung, @DongHyeonYu)
+  2. (@Yejin0o0, @JIMIN, @shs1018) : 백준 단계별 문제 풀기!
 
 ##### <진행 방식>
   1) 문제는 그룹별 공통으로 한다.
